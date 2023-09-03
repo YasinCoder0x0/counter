@@ -1,0 +1,85 @@
+/* ---------- By Yasin Coder ---------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+  transition: all .2s;
+}
+    
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+    
+.title {
+  letter-spacing: -1px;
+  display: flex;
+  /*margin: 2rem;*/
+}
+    
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+    
+.container {
+  margin: 1rem;
+  background: #FFF;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 5px 10px #ddd;
+  /*max-width: 200px;*/
+}
+    
+.btn-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  /*padding: 15px;*/
+}
+    
+.btn {
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  padding: 0px 28px;
+  font-size: 30px;
+}
+    
+.counter-cont {
+  display: flex;
+  justify-content: space-between;
+}
+    
+.reset, .num {
+  background: orangered;
+  color: #fff;
+  letter-spacing: 0;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 500;
+}
+    
+.num {
+  background: orange;
+}
+    
+.increment {
+  background: dodgerblue;
+  margin-right: 5px;
+}
+    
+.decrement {
+  background: #888;
+  margin-left: 5px;
+}

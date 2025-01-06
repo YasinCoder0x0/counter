@@ -84,6 +84,6 @@ main {
   margin-left: 5px;
 }
 
-.increment, .decrement,.reset {
+.btn,.reset {
   cursor: pointer;
 }

@@ -83,3 +83,7 @@ main {
   background: #888;
   margin-left: 5px;
 }
+
+.increment, .decrement,.reset {
+  cursor: pointer;
+}
